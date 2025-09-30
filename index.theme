@@ -1,0 +1,13 @@
+[IconTheme]
+Name = Mangerite
+Comment = Simple icons based off Linux Mint
+Directories = scalable/apps, scalable/folders
+Inherits = breeze-dark
+[scalable/apps]
+MinSize = 32
+MaxSize = 128
+Type = Scalable
+[scalable/folders]
+MinSize = 32
+MaxSize = 128
+Type = Scalable
