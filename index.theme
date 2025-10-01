@@ -1,12 +1,13 @@
 [IconTheme]
-Name = Mangerite
-Comment = Simple icons based off Linux Mint
-Directories = scalable/apps, scalable/folders
-[scalable/apps]
-MinSize = 32
-MaxSize = 128
-Type = Scalable
-[scalable/folders]
-MinSize = 32
-MaxSize = 128
-Type = Scalable
+Name=Mangerite
+Comment=Simple icons based off Linux Mint
+Directories=icons/scalable/apps,icons/scalable/places
+
+[icons/scalable/apps]
+Context=Applications
+MinSize=32
+MaxSize=128
+[icons/scalable/places]
+Context=Places
+MinSize=32
+MaxSize=128
