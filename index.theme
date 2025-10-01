@@ -1,14 +1,51 @@
+# Setup
 [IconTheme]
 Name=Mangerite
 Comment=Simple icons based off Linux Mint
-Directories=icons/scalable/apps,icons/scalable/places
+Directories=icons/scalable/apps,icons/scalable/places,icons/128x128/apps,icons/128x128/places,icons/64x64/apps,icons/64x64/places,icons/32x32/apps,icons/32x32/places,icons/24x24/apps,icons/24x24/places,icons/16x16/apps,icons/16x16/places,icons/8x8/apps,icons/8x8/places
 
+# Directories
 [icons/scalable/apps]
 Context=Applications
 MinSize=32
 MaxSize=128
-
 [icons/scalable/places]
 Context=Places
 MinSize=32
 MaxSize=128
+[icons/128x128/apps]
+Context=Applications
+Size=128
+[icons/128x128/places]
+Context=Places
+Size=128
+[icons/64x64/apps]
+Context=Applications
+Size=64
+[icons/64x64/places]
+Context=Places
+Size=64
+[icons/32x32/apps]
+Context=Applications
+Size=32
+[icons/32x32/places]
+Context=Places
+Size=32
+[icons/24x24/apps]
+Context=Applications
+Size=24
+[icons/24x24/places]
+Context=Places
+Size=24
+[icons/16x16/apps]
+Context=Applications
+Size=16
+[icons/16/places]
+Context=Places
+Size=16
+[icons/8x8/apps]
+Context=Applications
+Size=8
+[icons/8x8/places]
+Context=Places
+Size=8
